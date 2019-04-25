@@ -130,8 +130,7 @@
     "config/**/*.js*",
     "scripts/**/*.js"
   ],
-  
-    "husky": {
+  "husky": {
       "hooks": {
         "pre-commit": "npm run lint-staged"
       }
